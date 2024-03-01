@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Support</title>
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body style="background-image: url('./images/support.png')">
+    <div id="container" style="background-image: url('./images/support.png')">
+      <div id="countdown">
+        <h1 id="timer" data-increment="true" style="color: #466880">00:00</h1>
+      </div>
+    </div>
+    <script>
+      require("../dist/renderer.js");
+    </script>
+  </body>
+</html>
